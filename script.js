@@ -67,10 +67,8 @@ var zucchiniArray = [
 
 // WEIGTH OF ALL ZUCCHINI
 var sum = 0;
-var i = 0;
-for(var key in zucchiniArray){
+for(var i = 0; i < zucchiniArray.length; i++){
     sum += zucchiniArray[i].weigth;
-    i++;
 }
 console.log(sum);
 
